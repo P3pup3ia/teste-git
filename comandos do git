@@ -1,0 +1,27 @@
+reconfigura a variavel trocando o editor viem para o vs code.
+git config --global core.editor code
+
+instala uma bibliotega de padronização do commit 
+yarn add git-commit-msg-linter -D
+
+guarda uma parte de um codigo para que possa dar continuidade depois 
+git stash 
+
+git stash list
+
+carrega o arquivo salvo e remove o da stash  
+git stash apply pop
+
+
+
+Cria uma tag com mensages no commit
+git tag 1.0 -m "realease 1.0"
+
+remove uma determinada teg 
+git tag -d 1.0
+
+mostra uma determinada teg
+git show 1.0
+
+faz o push das tags que possuem as mensages
+git push origin master --follow-tags
