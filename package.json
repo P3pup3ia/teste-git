@@ -1,0 +1,8 @@
+{
+  "name": "test-git",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/P3pup3ia/teste-git.git",
+  "author": "P3pup3ia <robert_sancts@hotmail.com>",
+  "license": "MIT"
+}
